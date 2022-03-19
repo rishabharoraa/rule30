@@ -1,3 +1,3 @@
 ## Rule 30 Cellular Automaton
 
-![Rule 30 Cellular Automaton Preview](./media/preview.png "Rule 30 Cellular Automaton Preview" =512)
+<img src="./media/preview.png" width="100%">
