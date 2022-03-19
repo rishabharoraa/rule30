@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-const DEPTH int = 512
+const DEPTH int = 256
 
 func createFirstLine(depth int) []int {
 	var firstLine []int
