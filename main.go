@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-const DEPTH int = 2048
+const DEPTH int = 512
 
 func createFirstLine(depth int) []int {
 	var firstLine []int
@@ -59,9 +59,9 @@ func Paint(graph [][]int) {
 		for x := 0; x < length-1; x++ {
 			var col uint8
 			if graph[y][x] == 1 {
-				col = 255
-			} else {
 				col = 0
+			} else {
+				col = 255
 			}
 			img.Set(x, y, color.Gray{col})
 		}
